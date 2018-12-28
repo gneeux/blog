@@ -60,8 +60,8 @@ Typecho_Common::init();
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
   'host' => '127.0.0.1',
-  'user' => 'root',
-  'password' => 'fNSQ8PdI4MkGN0nx!',
+  'user' => 'qq',
+  'password' => 'qq',
   'charset' => 'utf8',
   'port' => '3306',
   'database' => 'blog',
