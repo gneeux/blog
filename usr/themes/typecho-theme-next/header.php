@@ -16,7 +16,7 @@ if (!empty($this->options->next_cdn) && $this->options->next_cdn){
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext"/>
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5'); ?>"/>
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0'); ?>"/>
-    <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('/css/main.css?v=1.2.1'); ?>"/>
+    <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('/css/main.css?v=1.2.2'); ?>"/>
     <script type="text/javascript" id="hexo.configuration">
     var CONFIG = {
         scheme: 'Mist',
@@ -61,7 +61,7 @@ if (!empty($this->options->next_cdn) && $this->options->next_cdn){
   <div class="headband"></div>
 
   <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><h1 class="site-meta">
+      <div class="header-inner" style="margin-bottom: 50px"><h1 class="site-meta">
           <span class="logo-line-before"><i></i></span>
           <a href="<?php $this->options->siteUrl(); ?>" class="brand" rel="start">
               <span class="logo">
