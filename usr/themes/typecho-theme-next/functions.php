@@ -71,9 +71,11 @@ function themeFields($layout) {
 }
 */
 function themeInit($archive) {
-
-    //归档列表全部输出
-    if ($archive->is('archive')&& !$archive->is('search')) {
+    //自定义首页显示主题数
+    if ($archive-is('index')) {
+        $archive->parameter->pageSize = 15;
+    } elseif ($archive->is('archive')&& !$archive->is('search')) {  //归档列表全部输出
         $archive->parameter->pageSize = 10000; // 自定义条数
     }
 }
+
