@@ -2122,9 +2122,7 @@ ul li {
 @media (max-width: 767px) {
   .posts-expand .post-title,
   .posts-expand .post-meta {
-    /*首页列表靠左显示*/
-    /*text-align: center;*/
-    text-align: left;
+    text-align: center;
   }
 }
 .posts-expand .post-eof {
